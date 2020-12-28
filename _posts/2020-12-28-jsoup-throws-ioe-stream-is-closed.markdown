@@ -1,6 +1,9 @@
 ---
 layout: post title: 'Jsoup throws "IOException: stream is closed"'
-subtitle: 'Java HTML 라이브러리 Jsoup의 캐시 처리' categories: devlog tags: java comments: true
+subtitle: 'Java HTML 라이브러리 Jsoup의 캐시 처리'
+categories: devlog 
+tags: java 
+comments: true
 ---
 
 ## 이슈 발생
@@ -90,9 +93,10 @@ public static class Response extends HttpConnection.Base<Connection.Response> im
 *전체 코드를 참고하고 싶으시다면 댓글 부탁드리겠습니다.*
 
 ## 아쉬운 점
+
 github에 issue가 등록됐음에도 불구하고 특별한 이유 없이 처리하지 않았다는 것은 개발자의 의도와 다르게 사용하고 있기 때문이라는 생각이 듭니다.  
 위와 같은 처리는 임시방편이라고 생각하고 apache http component에 대한 연구를 시작해야 할 거 같습니다. (https://hc.apache.org/)
 
+## P.S
 
-##P.S
 두서없는 글을 읽어주셔서 감사합니다.  
