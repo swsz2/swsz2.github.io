@@ -103,7 +103,7 @@ gems:
   - jekyll-redirect-from
 
 exclude:
-  - README.md
+#  - README.md
   - LICENSE.md
   - node_modules
   - package.json

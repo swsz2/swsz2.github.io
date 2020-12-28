@@ -1,8 +1,9 @@
 ---
 layout: tag-blog
-title: Data
-slug: data
+title: Java
+slug: java
 category: devlog
 menu: false
 order: 2
+header-img: "/img/java.jpg"
 ---
