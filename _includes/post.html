@@ -14,7 +14,7 @@
       {% include tag-list.html tags=post.tags meta=site.featured_tags start_with="on " separator=", " %}
     </p>
 
-    {% include message.html text=post.description %}
+<!--    {% include message.html text=post.description %}-->
   </header>
   {% for tag_slug in post.tags %}
   {% unless tag.header-img %}
@@ -65,7 +65,7 @@
         height: 258px;
       }
     </style>
-    {{ post.content }}
+<!--    {{ post.content }}-->
   </div>
   {% else %}
   {{ post.excerpt }}
