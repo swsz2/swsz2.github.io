@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: Web
-slug: web
+title: Grpc
+slug: grpc
 category: devlog
 menu: false
 order: 1
