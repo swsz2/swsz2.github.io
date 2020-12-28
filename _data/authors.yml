@@ -57,6 +57,7 @@ swsz2:
     # delicious:       <username>
     # stumbleupon:     <username>
     # paypal:          <username>
+    naver:          swsz_
     email:           mailto:sungwon5047@gmail.com
     rss:             https://swsz2.github.io/feed.xml
 
