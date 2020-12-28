@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="format-detection" content="telephone=no">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<meta name="naver-site-verification" content="bac159f2aa0a2c0accac6535e58873231c1ab899" />
+<meta name="naver-site-verification" content="22c5b4ef3bfda7fc6100671413989219de7a4ac8"/>
 <meta property="og:title" content="{{ page.title }}">
 <meta property="og:type" content="article">
 
@@ -30,9 +30,9 @@
 <meta property="og:image:height" content="360" />
 {% capture title %}
   {% if page.url == "/" %}
-    {{ site.title }}는 {{ site.tagline }}
+    {{ site.title }} &middot; {{ site.tagline }}
   {% elsif page.title.size > 0 %}
-    {{ site.title }}는 {{ site.tagline }}
+    {{ page.title }} &middot; {{ site.title }}
   {% else %}
     {{ site.title }}
   {% endif %}
