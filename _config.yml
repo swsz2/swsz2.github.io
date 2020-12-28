@@ -13,8 +13,7 @@ url:                 https://swsz2.github.io
 baseurl:             ""
 
 # A very short description of your page
-tagline:             녹차 라테 중독
-  소프트웨어 엔지니어
+tagline:             녹차 라테 중독 엔지니어
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
