@@ -4,6 +4,6 @@ title: Java
 slug: java
 category: devlog
 menu: false
-order: 2
+order: 1
 header-img: "/img/java.jpg"
 ---

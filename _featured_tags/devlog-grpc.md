@@ -4,6 +4,6 @@ title: Grpc
 slug: grpc
 category: devlog
 menu: false
-order: 1
+order: 2
 header-img: "/img/grpc.png"
 ---
