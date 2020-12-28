@@ -3,7 +3,7 @@ layout: post
 title: 'Jsoup throws "IOException: stream is closed"'
 subtitle: 'Java HTML 라이브러리 Jsoup의 캐시 처리'
 categories: devlog 
-tags: java 
+tags: java
 comments: true
 ---
 
