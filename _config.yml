@@ -18,7 +18,7 @@ tagline:             녹차 라테 중독 엔지니어
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  헤드폰과 녹차 라테만 있으면 돼요
+  녹차 라테만 주신다면...
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:

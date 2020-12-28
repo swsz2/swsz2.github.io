@@ -8,7 +8,7 @@ swsz2:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    헤드폰과 녹차 라테만 있으면 돼요
+    녹차 라테만 주신다면...
 
   # This photo will be used in the about section
   picture:
