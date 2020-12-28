@@ -14,6 +14,7 @@
 <!-- CONTENT         -->
 <!-- =============== -->
 <div id="_yPushState">
+  {% include sidebar.html %}
   <div class="fade-in">
     <main id="_main" class="content" role="main" data-color="{{ color | escape }}" data-image="{{ image | escape }}">
       {{ content }}
@@ -26,7 +27,6 @@
     </main>
     {% include right-side.html %}
   </div>
-  {% include sidebar.html %}
 </div>
 
 <!-- =============== -->
