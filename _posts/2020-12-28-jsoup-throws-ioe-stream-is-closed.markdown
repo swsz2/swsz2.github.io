@@ -7,7 +7,6 @@ tags: java
 comments: true
 ---
 ## 이슈 발생
-
 <pre>
  ???  : swsz2님! HTTP 요청할 때 IOE 발생하는데 어떻게 처리해야 하나요?   
 swsz2 : 메시지는요?
