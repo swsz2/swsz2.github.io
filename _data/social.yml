@@ -201,5 +201,5 @@
     prepend: "https://www.paypal.me/"
   naver:
     name: Naver
-    icon: /assets/img/icon/naver.png
+    icon: icon-naver
     prepend: "https://blog.naver.com/"
