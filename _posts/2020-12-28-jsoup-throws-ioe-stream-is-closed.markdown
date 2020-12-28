@@ -49,9 +49,9 @@ Retrieve the cached response based on the requesting uri, request method and req
 
 
 이러한 의심과 함께 Jsoup github issue를 확인해보니 역시 동일한 케이스가 있었는데요.
-![jsoup-stream-is-closed-issue-open](../assets/img/post/jsoup-stream-is-closed-issue-open.png)
+![jsoup-stream-is-closed-issue-open](/assets/img/post/jsoup-stream-is-closed-issue-open.png)
 없어졌습니다.
-![jsoup-stream-is-closed-issue-closed](../assets/img/post/jsoup-stream-is-closed-issue-closed.png)
+![jsoup-stream-is-closed-issue-closed](/assets/img/post/jsoup-stream-is-closed-issue-closed.png)
 
 ## 이슈 해결
 
@@ -91,6 +91,7 @@ public static class Response extends HttpConnection.Base<Connection.Response> im
 }
 ```
 
+위와 같이 커스터마이징하면서 Jsoup을 활용한 Http 요청시 IOException: stream is closed 발생 이슈는 해결됐습니다.  
 *전체 코드를 참고하고 싶으시다면 댓글 부탁드리겠습니다.*
 
 ## 아쉬운 점
@@ -99,5 +100,5 @@ github에 issue가 등록됐음에도 불구하고 특별한 이유 없이 처�
 위와 같은 처리는 임시방편이라고 생각하고 apache http component에 대한 연구를 시작해야 할 거 같습니다. (https://hc.apache.org/)
 
 ## P.S
-
-두서없는 글을 읽어주셔서 감사합니다.  
+아직 어느 정도로 상세하게 작성해야 할지 감이 오지 않아 연습 중입니다.
+두서없는 글을 읽어주셔서 감사합니다.
