@@ -70,12 +70,13 @@
     <script>
       (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
+    {{ post.content }}
   </div>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
   </script>
   {% else %}
-  {{ post.excerpt }}
+    {{ post.excerpt }}
   {% endunless %}
 
 </article>
