@@ -7,8 +7,12 @@ swsz2:
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:             |
-    녹차 라테만 주신다면...
+  about:
+    소프트웨어 엔지니어 |
+    자신감 충만한 엔지니어 |
+    모르는 것을 부끄러워 하지 않는 엔지니어 |
+    Why라는 질문을 좋아하는 엔지니어
+
 
   # This photo will be used in the about section
   picture:
