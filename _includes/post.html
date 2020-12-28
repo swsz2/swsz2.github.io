@@ -12,6 +12,8 @@
       <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
       {% include tag-list.html tags=post.categories meta=site.featured_categories start_with="in " separator=" / " %}
       {% include tag-list.html tags=post.tags meta=site.featured_tags start_with="on " separator=", " %}
+    <p class="read-more"><a class="heading" href="{{ post.url | relative_url }}" data-flip="title">Continue reading </a>
+    </p>
     </p>
 
     {% include message.html text=post.description %}
@@ -74,8 +76,6 @@
   </script>
   {% else %}
   <!--{{ post.excerpt }}-->
-  <p class="read-more"><a class="heading" href="{{ post.url | relative_url }}" data-flip="title">Continue reading </a>
-  </p>
   {% endunless %}
 
 </article>
