@@ -119,7 +119,7 @@ swsz2 : 네...
 왜냐면 동료들과 소통이 가능하고 협업하는 데 큰 문제만 없으면 된다고 생각하기 때문입니다.  
 
 관련된 재미있는 스택오버플로우 주제가 있으니 구경해보시면 좋을 듯 합니다.  
-https://stackoverflow.com/questions/3226282/are-there-best-practices-for-java-package-organization  
+[are-there-best-practices-for-java-package-organization?](https://stackoverflow.com/questions/3226282/are-there-best-practices-for-java-package-organization){: target="_blank"}
 <br>
 P.S  
 패키지 구조에 대한 의견이나 질문 등을 댓글로 남겨주시면 답변해드리겠습니다.  
