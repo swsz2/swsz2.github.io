@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: '나의 프로젝트 패키지 구조 In Spring Boot'
+title: '나의 프로젝트 패키지 구조 in Spring Boot'
 subtitle: 'swsz2는 어떻게 패키지 구조를 세울까'
 categories: devlog 
 tags: java
