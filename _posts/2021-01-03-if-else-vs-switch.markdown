@@ -6,11 +6,7 @@ categories: devlog
 tags: java 
 comments: true
 ---
-
-
-
 ## 효율적?
-
 <pre>
  ???  : swsz2님 여기선 switch보다 if-else가 더 효율적이지 않나요?   
 swsz2 : 효율적라이면... 수행 속도가 빠르다는 건가요?
@@ -21,6 +17,7 @@ swsz2 : 그건...
  ???  : 왜요? 빠르면 좋은 거 아닌가요?
 swsz2 : 그게 말이죠... 우선 테스트부터 해볼까요?
 </pre>
+
 
 ## 빠르면 좋은 거 아닌가요?
 
