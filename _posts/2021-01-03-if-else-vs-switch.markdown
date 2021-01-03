@@ -146,7 +146,7 @@ public enum CoffeeType {
     }
 }
 ```
-*그대로 복붙하시면 컴파일 에러가 발생합니다. 하나의 findByOrder 함수명을 변경해주시거나 제거해야 합니다.*  
+*그대로 복붙하시면 컴파일 에러가 발생합니다. 하나의 findByOrder 함수명을 변경해 주시거나 제거해야 합니다.*  
 
 ###수행 결과
 <pre>
@@ -175,8 +175,8 @@ Order(id=ecaff310-c115-4cd2-b9fa-d9416091ae80, menu=9, price=2000, beverage=Coff
 
 ### 왜?
 저는 **if-else, switch에 따른 속도 차이로 퍼포먼스를 챙기는 것**보다     
-**코드에 대한 가독성 그리고 유지보수하기 편한 이점을 챙기는 것**이 더 좋다고 생각합니다.      
-즉 **상황에 따른 if-else, switch 선택이 중요하다**라고 생각합니다.  
+**코드에 대한 가독성 그리고 유지 보수하기 편한 이점을 챙기는 것**이 더 좋다고 생각합니다.      
+즉 **상황에 따른 if-else, switch 선택이 중요하다**고 생각합니다.  
 
 #### if-else를 사용하는 경우
 <pre>
@@ -256,9 +256,9 @@ public static CoffeeType findByOrder(Order order) {
 ```
 
 ## 마무리 
-결론은 저는 if-else가 더 좋다! 또는 switch가 더 좋다! 가 아닌 **상황에 맞는 코드를 작성하는 것이 중요하다**입니다.
+결론은 저는 if-else가 더 좋다! 또는 switch가 더 좋다! 가 아닌 **상황에 맞는 코드를 작성하는 것이 중요하다**고 생각합니다.
 
-오늘도 이와 관련된 재미있는 주제가 있으니 구경해보시면 좋을 듯 합니다.  
+오늘도 이와 관련된 재미있는 주제가 있으니 구경해보시면 좋을 듯합니다.  
 [If statements vs switch cases? in a JavaScript game and if to use a function](https://softwareengineering.stackexchange.com/questions/222145/if-statements-vs-switch-cases-in-a-javascript-game-and-if-to-use-a-function){:
 target="_blank"}  
 <br>
