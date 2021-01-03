@@ -145,7 +145,7 @@ public enum CoffeeType {
 ```
 *그대로 복붙하시면 컴파일 에러가 발생합니다. 하나의 findByOrder 함수명을 변경해 주시거나 제거해야 합니다.*  
 
-###수행 결과
+### 수행 결과
 <pre>
 Order(id=602f42b8-aaa2-41a9-8727-0465715891b3, menu=1, price=2000, beverage=Coffee(type=CoffeeType.AMERICANO(name=americano, price=2000), size=TALL, served=true), dessert=null, served=true)
 Order(id=88b308fd-7e75-4eae-b3fd-ae4ed8d1f206, menu=2, price=2500, beverage=Coffee(type=CoffeeType.CAPPUCCINO(name=capuccino, price=2500), size=TALL, served=true), dessert=null, served=true)
