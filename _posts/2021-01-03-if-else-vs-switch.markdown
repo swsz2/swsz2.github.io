@@ -159,7 +159,7 @@ Order(id=ecaff310-c115-4cd2-b9fa-d9416091ae80, menu=9, price=2000, beverage=Coff
 </pre>
 
 ### 반복에 따른 테스트 결과
-![my-package-structure-in-spring-boot](../assets/img/post/detail-for-if-switch-statistics.PNG)
+![detail-for-if-switch-statistics](/assets/img/post/detail-for-if-switch-statistics.PNG)
 <pre>
 1억 번의 주문을 switch는 약 300초, if-else는 약 330초 동안 처리함
 -> int에 대한 처리를 1억 번 반복했을 때 switch가 if-else보다 약 10% 정도 더 빨리 처리함
